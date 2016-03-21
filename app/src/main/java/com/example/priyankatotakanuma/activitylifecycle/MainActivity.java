@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
             String myString = savedInstanceState.getString("MyString");
             Log.i("lifecycle", myString);
         }
-        button = (Button) findViewById(R.id.button);
-        Log.d("lifecycle", "onCreate invoked");
+     /*   button = (Button) findViewById(R.id.button);
+        Log.d("lifecycle", "onCreate invoked");*/
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
